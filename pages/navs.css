@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 84%;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo img {
+    max-width: 50%;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.menu h3 {
+    padding: 0 20px;
+    font-size: 14px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    width: 100%;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ffd700;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.settings {
+    margin-top: auto;
+    width: 100%;
+}
+
+.settings a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #222;
+    transition: background 0.3s;
+}
+
+.settings a:hover {
+    background-color: #444;
+}

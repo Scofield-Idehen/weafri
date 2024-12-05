@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bbb {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#bbb a{
+    padding: 50px;
+    font-size: larger;
+}
+#bbb a:hover{
+    box-sizing: border-box content-box;
+}
+.mine{
+    margin-top: 80px;
+    margin-left: 700px;
+}
+button{
+    padding: 15px;
+    border-radius: 2px;
+    background-color:rgba(253, 218, 19, 0.87) ;
+}
+button :hover{
+    cursor: pointer;
+    background-color: gold;
+}
